@@ -1,0 +1,30 @@
+# Exercise: Fewer Keystrokes
+#
+# Answer each question on its numbered line, after the ")". Write only the answer, like the example.
+# The photos are in photo-show/. Use ** (after shopt -s globstar) to reach every folder below.
+#
+# Example: how many folders are right inside photo-show? (ls photo-show)
+# 0) 3
+
+# 1. How many raw photos (.jpg files) are there in photo-show/raw, in all the folders below it?
+1)
+
+# 2. How many edited photos (names that end in -edit.jpg) are there anywhere in photo-show?
+2)
+
+# 3. Run this command, then echo $?. What exit code does it give?
+#    grep -q IMG_0999 photo-show/notes.txt
+3)
+
+# 4. Run this command, then echo $?. What exit code does it give?
+#    grep -q IMG_0401 photo-show/no-such-file.txt
+4)
+
+# 5. Write ONE line that makes a folder named backup (here, beside photo-show), copies every photo in
+#    photo-show/edited/2026/05-may/beach into it, and prints Backup done, but only if both of those worked.
+#    Then run your line, so the backup folder is really made.
+5)
+
+# 6. Your last command was:  mkdir -p photo-show/exports/web/large
+#    Write the shortest command that goes into that folder without typing its path, using history expansion.
+6)
